@@ -41,7 +41,7 @@ public class DropDownTests {
     }
 
     @After
-    public void deleteOutputFile() {
+    public void tearDown() {
         driver.quit();
     }
 }
